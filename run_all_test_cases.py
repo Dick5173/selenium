@@ -69,4 +69,5 @@ if __name__ == '__main__':
     #版本控制的前提条件，申请一个git账号
     #把html格式的测试报告作为邮件正文发送
     send_mail(path)
+    print("邮件发送成功")
 
